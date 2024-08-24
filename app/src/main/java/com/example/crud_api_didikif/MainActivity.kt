@@ -50,6 +50,10 @@ class MainActivity : AppCompatActivity(), CrudView {
         Toast.makeText(this, "Delete tidak berhasil", Toast.LENGTH_SHORT).show()
     }
 
+    override fun successAdd(msg: String) {
+        TODO("Not yet implemented")
+    }
+
     override fun onSuccessAdd(msg: String) {
 
     }

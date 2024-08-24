@@ -47,6 +47,11 @@ class UpdateAddActivity : AppCompatActivity(), CrudView {
         }
     }
 
+    override fun successAdd (msg: String) {
+        startActivity(Intent (this, MainActivity::class.java))
+        finish()
+    }
+
     override fun onErrorAdd(msg: String) {}
 
     override fun onSuccessUpdate(msg: String) {

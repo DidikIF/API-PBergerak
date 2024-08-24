@@ -15,4 +15,5 @@ interface CrudView {
     //Untuk Delete
     fun onSuccessDelete(msg: String)
     fun onErrorDelete(msg: String)
+    fun successAdd(msg: String)
 }
